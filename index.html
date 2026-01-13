@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxe Salon - Premium Hair & Beauty Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-scissors"></i> Luxe Salon
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#booking" class="cta-nav">Book Now</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section / Homepage -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to Luxe Salon</h1>
+            <p class="hero-subtitle">Discover Your Most Beautiful Self with Premium Hair & Beauty Services</p>
+            <p class="hero-location"><i class="fas fa-map-marker-alt"></i> Dubai, UAE | Expert Stylists | Since 2015</p>
+            <div class="hero-benefits">
+                <div class="benefit">
+                    <i class="fas fa-star"></i>
+                    <p>Expert Stylists</p>
+                </div>
+                <div class="benefit">
+                    <i class="fas fa-bolt"></i>
+                    <p>Fast & Easy Booking</p>
+                </div>
+                <div class="benefit">
+                    <i class="fas fa-crown"></i>
+                    <p>Premium Products</p>
+                </div>
+            </div>
+            <div class="hero-cta">
+                <a href="#booking" class="btn btn-primary">Book Now</a>
+                <a href="https://wa.me/1234567890" class="btn btn-secondary" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1560066169-b0a4f54c82e1?w=600&h=600&fit=crop" alt="Premium Hair Salon">
+        </div>
+    </section>
+
+    <!-- Services & Prices -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services & Prices</h2>
+            <p class="section-subtitle">Premium hair and beauty services tailored to your needs</p>
+            
+            <div class="services-grid">
+                <!-- Hair Coloring -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Hair Coloring</h3>
+                    <div class="service-list">
+                        <div class="service-item">
+                            <span>Full Color</span>
+                            <span class="price">From AED 250</span>
+                            <small>Duration: 2-3 hours</small>
+                        </div>
+                        <div class="service-item">
+                            <span>Highlights/Balayage</span>
+                            <span class="price">From AED 350</span>
+                            <small>Duration: 2.5-3.5 hours</small>
+                        </div>
+                        <div class="service-item">
+                            <span>Root Retouch</span>
+                            <span class="price">From AED 180</span>
+                            <small>Duration: 1.5-2 hours</small>
+                        </div>
+                        <div class="service-item">
+                            <span>Ombre/Sombre</span>
+                            <span class="price">From AED 400</span>
+                            <small>Duration: 3 hours</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Haircuts & Styling -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Haircuts & Styling</h3>
+                    <div class="service-list">
+                        <div class="service-item">
+                            <span>Women's Haircut</span>
+                            <span class="price">From AED 120</span>
+                            <small>Duration: 45 min</small>
+                        </div>
+                        <div class="service-item">
+                            <span>Men's Haircut</span>
+                            <span class="price">From AED 80</span>
+                            <small>Duration: 30 min</small>
+                        </div>
+                        <div class="service-item">
+                            <span>Blowout & Style</span>
+                            <span class="price">From AED 100</span>
+                            <small>Duration: 1 hour</small>
+                        </div>
+                        <div class="service-item">
+                            <span>Bridal Styling</span>
+                            <span class="price">From AED 400</span>
+                            <small>Duration: 1.5-2 hours</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hair Treatments -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Hair Treatments</h3>
+                    <div class="service-list">
+                        <div class="service-item">
+                            <span>Deep Conditioning Treatment</span>
+                            <span class="price">From AED 150</span>
+                            <small>Duration: 1 hour</small>
+                        </div>
+                        <div class="service-item">
+                            <span>Keratin Treatment</span>
+                            <span class="price">From AED 500</span>
+                            <small>Duration: 3 hours</small>
+                        </div>
+                        <div class="service-item">
+                            <span>Hair Botox</span>
+                            <span class="price">From AED 350</span>
+                            <small>Duration: 2 hours</small>
+                        </div>
+                        <div class="service-item">
+                            <span>Scalp Treatment</span>
+                            <span class="price">From AED 200</span>
+                            <small>Duration: 1.5 hours</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Extensions -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-arrows-alt"></i>
+                    </div>
+                    <h3>Hair Extensions</h3>
+                    <div class="service-list">
+                        <div class="service-item">
+                            <span>Clip-In Extensions</span>
+                            <span class="price">From AED 200</span>
+                            <small>Duration: 1 hour</small>
+                        </div>
+                        <div class="service-item">
+                            <span>Tape-In Extensions</span>
+                            <span class="price">From AED 800</span>
+                            <small>Duration: 2-3 hours</small>
+                        </div>
+                        <div class="service-item">
+                            <span>Sew-In Extensions</span>
+                            <span class="price">From AED 900</span>
+                            <small>Duration: 2.5-3.5 hours</small>
+                        </div>
+                        <div class="service-item">
+                            <span>Extensions Maintenance</span>
+                            <span class="price">From AED 150</span>
+                            <small>Duration: 1.5 hours</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Makeup -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-makeup"></i>
+                    </div>
+                    <h3>Makeup Services</h3>
+                    <div class="service-list">
+                        <div class="service-item">
+                            <span>Bridal Makeup</span>
+                            <span class="price">From AED 350</span>
+                            <small>Duration: 1.5 hours</small>
+                        </div>
+                        <div class="service-item">
+                            <span>Party Makeup</span>
+                            <span class="price">From AED 200</span>
+                            <small>Duration: 1 hour</small>
+                        </div>
+                        <div class="service-item">
+                            <span>Makeup Lesson</span>
+                            <span class="price">From AED 300</span>
+                            <small>Duration: 1.5 hours</small>
+                        </div>
+                        <div class="service-item">
+                            <span>Touch-Up Service</span>
+                            <span class="price">From AED 100</span>
+                            <small>Duration: 30 min</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Special Packages -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3>Special Packages</h3>
+                    <div class="service-list">
+                        <div class="service-item">
+                            <span>Bridal Package</span>
+                            <span class="price">From AED 1,200</span>
+                            <small>Hair + Makeup + Styling</small>
+                        </div>
+                        <div class="service-item">
+                            <span>Pamper Package</span>
+                            <span class="price">From AED 600</span>
+                            <small>Cut + Color + Treatment</small>
+                        </div>
+                        <div class="service-item">
+                            <span>Transformation</span>
+                            <span class="price">From AED 800</span>
+                            <small>Complete Hair Makeover</small>
+                        </div>
+                        <div class="service-item">
+                            <span>Gift Card - Any Amount</span>
+                            <span class="price">Flexible</span>
+                            <small>Perfect gift option</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Online Booking Section -->
+    <section id="booking" class="booking-section">
+        <div class="container">
+            <h2 class="section-title">Book Your Appointment</h2>
+            <p class="section-subtitle">Fast, Easy & Convenient Booking Options</p>
+            
+            <div class="booking-options">
+                <div class="booking-card">
+                    <div class="booking-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Online Booking</h3>
+                    <p>Schedule your appointment directly through our system. Choose your service, date, and preferred stylist in just a few clicks.</p>
+                    <a href="#" class="btn btn-primary">Book Online</a>
+                </div>
+
+                <div class="booking-card">
+                    <div class="booking-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>WhatsApp Message</h3>
+                    <p>Chat with us on WhatsApp for instant confirmation and special offers. Perfect for quick bookings and consultations.</p>
+                    <a href="https://wa.me/1234567890" target="_blank" class="btn btn-primary">Message Us</a>
+                </div>
+
+                <div class="booking-card">
+                    <div class="booking-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Call Us</h3>
+                    <p>Speak directly with our team. Call us during business hours for personalized service and expert recommendations.</p>
+                    <a href="tel:+971123456789" class="btn btn-primary">+971 (123) 456-789</a>
+                </div>
+            </div>
+
+            <div class="booking-highlight">
+                <h3>Why Book With Us?</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i> Instant booking confirmation</li>
+                    <li><i class="fas fa-check"></i> Flexible rescheduling (24hrs notice)</li>
+                    <li><i class="fas fa-check"></i> First-time client discount (10%)</li>
+                    <li><i class="fas fa-check"></i> Loyalty rewards program</li>
+                    <li><i class="fas fa-check"></i> No hidden fees</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Luxe Salon</h2>
+                    <h3>Your Trusted Beauty Destination Since 2015</h3>
+                    <p>Welcome to Luxe Salon, where beauty meets expertise. For over 8 years, we've been transforming lives through exceptional hair and beauty services. Our passionate team is dedicated to making every client feel confident, beautiful, and valued.</p>
+                    
+                    <h4>Our Story</h4>
+                    <p>Founded by award-winning stylist Maria Gonzalez, Luxe Salon started as a small boutique salon with a big vision: to provide world-class hair services with a personal touch. What began with just 3 stylists has grown into a thriving salon with a team of certified professionals, each bringing their unique expertise and passion to every appointment.</p>
+
+                    <h4>Our Qualifications</h4>
+                    <ul class="qualifications-list">
+                        <li><i class="fas fa-certificate"></i> International Hair Academy Certified Stylists</li>
+                        <li><i class="fas fa-certificate"></i> Certified Color Specialists</li>
+                        <li><i class="fas fa-certificate"></i> Advanced Training in Extensions & Treatments</li>
+                        <li><i class="fas fa-certificate"></i> Continuous Professional Development</li>
+                        <li><i class="fas fa-certificate"></i> Members of Professional Beauty Associations</li>
+                    </ul>
+
+                    <h4>Why Choose Luxe Salon?</h4>
+                    <div class="value-props">
+                        <div class="value-prop">
+                            <h5><i class="fas fa-star"></i> Expert Stylists</h5>
+                            <p>Our team consists of highly trained professionals with 5-15 years of experience in the industry.</p>
+                        </div>
+                        <div class="value-prop">
+                            <h5><i class="fas fa-leaf"></i> Premium Products</h5>
+                            <p>We use only the finest, salon-grade products to ensure the best results for your hair.</p>
+                        </div>
+                        <div class="value-prop">
+                            <h5><i class="fas fa-heart"></i> Personalized Service</h5>
+                            <p>We listen to you and create customized solutions for your unique hair needs.</p>
+                        </div>
+                        <div class="value-prop">
+                            <h5><i class="fas fa-sparkles"></i> Luxurious Environment</h5>
+                            <p>Relax in our beautifully designed salon with premium amenities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=600&fit=crop" alt="Luxe Salon Interior">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery / Portfolio -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Portfolio & Gallery</h2>
+            <p class="section-subtitle">See the transformation magic we create</p>
+
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="color">Color</button>
+                <button class="filter-btn" data-filter="cuts">Cuts & Styles</button>
+                <button class="filter-btn" data-filter="treatments">Treatments</button>
+                <button class="filter-btn" data-filter="makeup">Makeup</button>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- Color Work -->
+                <div class="gallery-item" data-filter="color">
+                    <img src="https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?w=400&h=400&fit=crop" alt="Ombre Hair Color">
+                    <div class="gallery-overlay">
+                        <h4>Ombre Transformation</h4>
+                        <p>Beautiful ombre balayage with warm tones</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-filter="color">
+                    <img src="https://images.unsplash.com/photo-1584308666744-24d5f00206dd?w=400&h=400&fit=crop" alt="Blonde Highlights">
+                    <div class="gallery-overlay">
+                        <h4>Blonde Highlights</h4>
+                        <p>Dimensional blonde with caramel tones</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-filter="color">
+                    <img src="https://images.unsplash.com/photo-1552058544-f7b51bb756c1?w=400&h=400&fit=crop" alt="Red Hair Color">
+                    <div class="gallery-overlay">
+                        <h4>Vibrant Red</h4>
+                        <p>Rich, glossy red color transformation</p>
+                    </div>
+                </div>
+
+                <!-- Cuts & Styles -->
+                <div class="gallery-item" data-filter="cuts">
+                    <img src="https://images.unsplash.com/photo-1589728317853-3a2b2331b59b?w=400&h=400&fit=crop" alt="Bob Haircut">
+                    <div class="gallery-overlay">
+                        <h4>Modern Bob</h4>
+                        <p>Sleek and stylish modern bob cut</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-filter="cuts">
+                    <img src="https://images.unsplash.com/photo-1503235930437-8c6cea266b20?w=400&h=400&fit=crop" alt="Long Waves">
+                    <div class="gallery-overlay">
+                        <h4>Beachy Waves</h4>
+                        <p>Flowing waves with perfect texture</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-filter="cuts">
+                    <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&h=400&fit=crop" alt="Layered Cut">
+                    <div class="gallery-overlay">
+                        <h4>Layered Haircut</h4>
+                        <p>Dimensional layers for volume and movement</p>
+                    </div>
+                </div>
+
+                <!-- Hair Treatments -->
+                <div class="gallery-item" data-filter="treatments">
+                    <img src="https://images.unsplash.com/photo-1633263821046-2d89dd54d8d7?w=400&h=400&fit=crop" alt="Hair Treatment">
+                    <div class="gallery-overlay">
+                        <h4>Keratin Treatment</h4>
+                        <p>Before and after keratin smoothing</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-filter="treatments">
+                    <img src="https://images.unsplash.com/photo-1522337660859-02fbefca6a7f?w=400&h=400&fit=crop" alt="Hair Care">
+                    <div class="gallery-overlay">
+                        <h4>Deep Conditioning</h4>
+                        <p>Restored shine and strength</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-filter="treatments">
+                    <img src="https://images.unsplash.com/photo-1595433707802-6b2626ef1c91?w=400&h=400&fit=crop" alt="Hair Extensions">
+                    <div class="gallery-overlay">
+                        <h4>Hair Extensions</h4>
+                        <p>Natural-looking length extensions</p>
+                    </div>
+                </div>
+
+                <!-- Makeup -->
+                <div class="gallery-item" data-filter="makeup">
+                    <img src="https://images.unsplash.com/photo-1605509368894-92db96bbb630?w=400&h=400&fit=crop" alt="Bridal Makeup">
+                    <div class="gallery-overlay">
+                        <h4>Bridal Makeup</h4>
+                        <p>Elegant, photogenic bridal look</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-filter="makeup">
+                    <img src="https://images.unsplash.com/photo-1631215174519-d74fb8c50f62?w=400&h=400&fit=crop" alt="Party Makeup">
+                    <div class="gallery-overlay">
+                        <h4>Party Glam</h4>
+                        <p>Bold, glamorous evening makeup</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-filter="makeup">
+                    <img src="https://images.unsplash.com/photo-1614008375890-cb53b6c5f8d5?w=400&h=400&fit=crop" alt="Natural Makeup">
+                    <div class="gallery-overlay">
+                        <h4>Natural Glow</h4>
+                        <p>Fresh, natural everyday makeup</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2 class="section-title">Client Reviews</h2>
+            <p class="section-subtitle">Read what our happy clients have to say</p>
+
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"I've been going to Luxe Salon for 3 years now. The team is professional, friendly, and truly cares about their clients. My hair has never looked better!"</p>
+                    <p class="review-author">- Sarah Ahmed</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"Luxe Salon gave me the most beautiful bridal look on my wedding day. I felt confident and stunning. Highly recommend!"</p>
+                    <p class="review-author">- Fatima Hassan</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"The keratin treatment was life-changing! My hair is smoother, healthier, and so easy to manage now. Worth every dirham!"</p>
+                    <p class="review-author">- Amira Mohammed</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"Amazing color transformation! Maria understood exactly what I wanted and delivered perfection. The salon ambiance is so relaxing!"</p>
+                    <p class="review-author">- Noor Al Mansoori</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"Best haircut I've ever had! The stylists are skilled and they really take time to understand your vision. Love this salon!"</p>
+                    <p class="review-author">- Layla Khan</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"Professional service, premium products, and a welcoming atmosphere. I recommend Luxe Salon to all my friends!"</p>
+                    <p class="review-author">- Mona Al Khoori</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <p class="section-subtitle">Everything you need to know about our services</p>
+
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4><i class="fas fa-chevron-right"></i> How far in advance should I book my appointment?</h4>
+                    <p>We recommend booking 2-3 weeks in advance, especially for weekend appointments and bridal services. However, we do accommodate last-minute bookings subject to availability. During peak seasons, please book earlier.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4><i class="fas fa-chevron-right"></i> What is your cancellation policy?</h4>
+                    <p>We request at least 24 hours notice for cancellations. Cancellations made less than 24 hours before the appointment may be charged 50% of the service fee. No-shows will be charged the full amount.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4><i class="fas fa-chevron-right"></i> Do you offer a consultation before services?</h4>
+                    <p>Yes! We highly recommend a free consultation, especially for color services, major cuts, or treatments. You can book a consultation online or call us. This helps us understand your goals and ensure the best results.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4><i class="fas fa-chevron-right"></i> Are your products tested on animals?</h4>
+                    <p>No, all our products are cruelty-free and ethically sourced. We only use premium, professional-grade products that are safe and effective.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4><i class="fas fa-chevron-right"></i> How often should I get my hair colored?</h4>
+                    <p>This depends on your hair type and color choice. Generally, we recommend touching up roots every 4-6 weeks for full color and 6-8 weeks for highlights. Our stylists will provide personalized recommendations during your appointment.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4><i class="fas fa-chevron-right"></i> How long do hair extensions last?</h4>
+                    <p>Hair extensions typically last 4-8 weeks depending on the method and your care routine. We provide detailed aftercare instructions. Regular maintenance appointments help extend their lifespan.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4><i class="fas fa-chevron-right"></i> Do you offer discounts for first-time clients?</h4>
+                    <p>Yes! First-time clients receive a 10% discount on all services. New customers also get priority booking and complimentary consultations.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4><i class="fas fa-chevron-right"></i> What is your loyalty rewards program?</h4>
+                    <p>Our loyalty program gives you 1 point for every AED spent. Earn 100 points for a free service or 50 points for AED 50 off. Members also get exclusive offers and early access to new services.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4><i class="fas fa-chevron-right"></i> Do you have parking available?</h4>
+                    <p>Yes! We have ample free parking available for all clients. There are both ground-level and covered parking options. Our salon is easily accessible from main roads.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4><i class="fas fa-chevron-right"></i> What payment methods do you accept?</h4>
+                    <p>We accept all major credit and debit cards (Visa, Mastercard, Emirates NBD), cash, and digital payments (Apple Pay, Google Pay). We also offer installment plans for expensive treatments.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4><i class="fas fa-chevron-right"></i> Can I request a specific stylist?</h4>
+                    <p>Absolutely! You can request your preferred stylist during booking. If they're unavailable, you can choose another date or we can recommend an equally skilled stylist.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4><i class="fas fa-chevron-right"></i> Do you offer mobile services or home visits?</h4>
+                    <p>We currently operate from our salon location. However, we do offer on-site services for bridal parties and group events. Contact us for custom arrangements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">We'd love to hear from you</p>
+
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h4>Location</h4>
+                        <p>Luxe Salon<br>Downtown Dubai, UAE<br>Near Dubai Mall</p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h4>Phone</h4>
+                        <p>Main: +971 (123) 456-789<br>Bookings: +971 (123) 456-790<br>WhatsApp: +971 50 123-4567</p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4>Email</h4>
+                        <p>info@luxesalon.ae<br>bookings@luxesalon.ae<br>support@luxesalon.ae</p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h4>Working Hours</h4>
+                        <p>Monday - Friday: 10:00 AM - 8:00 PM<br>Saturday: 9:00 AM - 9:00 PM<br>Sunday: 11:00 AM - 7:00 PM<br><strong>Closed on Public Holidays</strong></p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-parking"></i>
+                        </div>
+                        <h4>Parking</h4>
+                        <p>Free parking available<br>Ground level & covered parking<br>Accessible entrance<br>Wheelchair friendly</p>
+                    </div>
+                </div>
+
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3611.0659852405306!2d55.27232312346903!3d25.193995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f42e0a0a0a0a1%3A0x0a0a0a0a0a0a0a0!2sDowntown%20Dubai!5e0!3m2!1sen!2sae!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Luxe Salon</h4>
+                    <p>Your destination for premium hair and beauty services in Dubai.</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://tiktok.com" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://pinterest.com" target="_blank" title="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Hair Coloring</a></li>
+                        <li><a href="#services">Haircuts & Styling</a></li>
+                        <li><a href="#services">Hair Treatments</a></li>
+                        <li><a href="#services">Extensions</a></li>
+                        <li><a href="#services">Makeup Services</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-phone-alt"></i> +971 (123) 456-789</p>
+                    <p><i class="fas fa-envelope"></i> info@luxesalon.ae</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Downtown Dubai, UAE</p>
+                    <p><i class="fas fa-clock"></i> Mon-Fri: 10AM-8PM | Sat: 9AM-9PM | Sun: 11AM-7PM</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Luxe Salon. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#privacy">Privacy Policy</a>
+                    <span>•</span>
+                    <a href="#terms">Terms of Service</a>
+                    <span>•</span>
+                    <a href="#gdpr">GDPR & Data Protection</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Privacy Policy & GDPR Modal (Hidden by default) -->
+    <div id="privacy" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Privacy Policy & GDPR Notice</h2>
+            <h3>Data Protection & Your Privacy</h3>
+            <p>At Luxe Salon, we respect your privacy and are committed to protecting your personal data in accordance with GDPR and UAE data protection laws.</p>
+            
+            <h4>Information We Collect</h4>
+            <p>We collect personal information such as your name, phone number, email address, and appointment history to provide our services and improve your experience.</p>
+
+            <h4>How We Use Your Data</h4>
+            <ul>
+                <li>To schedule and manage your appointments</li>
+                <li>To send appointment reminders and offers</li>
+                <li>To improve our services</li>
+                <li>To communicate with you about special promotions (with your consent)</li>
+            </ul>
+
+            <h4>Your Rights</h4>
+            <p>You have the right to:</p>
+            <ul>
+                <li>Access your personal data</li>
+                <li>Request corrections to your data</li>
+                <li>Request deletion of your data (right to be forgotten)</li>
+                <li>Opt-out of marketing communications</li>
+                <li>Data portability</li>
+            </ul>
+
+            <h4>Contact us for Data Requests</h4>
+            <p>Email: privacy@luxesalon.ae</p>
+
+            <p><strong>Last Updated: January 2026</strong></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
